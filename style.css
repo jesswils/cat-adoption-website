@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+/* Fonts */
+
+.thin {
+	font-family: 'Jost', sans-serif;
+    font-weight: 10;
+}
+
+/*Body */
+
+body {
+	background-image: url("background.png");
+	width: 100vw;
+	height: 100vh;
+    background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Jost', sans-serif;
+	font-weight: lighter;
+}
+
+/* Header */
+
+.h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 900;
+}
+
+/* Main */
+
+main {
+	display: flex;
+	font-family: 'Jost', sans-serif;
+	font-weight: lighter;
+}
+
+/* Logo */
+
+.logo {
+	display: flex;
+	justify-content:left;
+	max-width: 25%;
+	max-height: 75%;
+}
+
+.banner {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	height: 100%;
+	width: 35%;
+	justify-content: space-evenly;
+}
+
+.navigation-links {
+	display: flex;
+	margin-top: 30px;
+    margin-right: 30px;
+	justify-content: space-evenly;
+	justify-self: right;
+	color: #C1C7C9;
+	font-family: 'Jost', sans-serif;
+	font-size: 35px;
+	text-decoration: none !important;
+	text-shadow: -1px -1px -1px #555D50;
+	font-weight: lighter;
+	transition: color 0.5s ease;
+}
+
+
+/* Column for images */
+
+.cats {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+
+ }
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #333333;
+	color: #ddd4e0;
+	text-align: center;
+	z-index:0;
+	font-family: 'Jost', sans-serif;
+	font-weight: lighter;
+ }
+
